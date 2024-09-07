@@ -6,14 +6,14 @@
 <img src="https://i.postimg.cc/bwMf5x5k/image-default.webp">
 
 <h3><i>Entities :</i></h3>
-<ul>
+<ul dir="rtl">
   <li><b>Producer</b> : سرویس تولید کننده پیام می باشد</li>
   <blockquote>routing key کلید ارسال پیام به exchange می باشد که برابر بودن آن با نام صف یا کلید ارتباطی صف ، مشخص می کند پیغام به کدام صف ارسال شود.
   <br>چناچه در زمان ارسال پیغام ، اشاره به exchange خاصی نشود ، حالت پیشفرض در نظر گرفته شده و باید routing key برابر نام صف مقصد باشد.
   <br>پیام بصورت باینری ارسال و دریافت می شود</blockquote>
   <li><b>Exchange</b> : در دنیای واقعی میتوان به اداره پست اشاره کرد در واقع وظیفه آن دریافت پیغام از تولید کننده پیام و ارسال آن به صف ها می باشد، چناچه صف خاصی به آن متصل نباشد میتواند در خصوص پیامی که دریافت کرده است تصمیم گیری کند ( آن را به ارسال کننده بازگرداند یا ... </li>
-  <blockquote><h5>Attributes :
-  <ul>
+  <blockquote  dir="rtl"><h5>Attributes :
+  <ul  dir="rtl">
     <li>name : نام exhchange</li>
     <li>exchange yype :Defult , Direct , Fanout , Topic , Header </li>
     <li>durable : زمانی که سیستم reset می شود exchange نگه داری شود یا خیر ؟</li>
@@ -26,7 +26,7 @@
   <br>این کلید میتواند یک کلمه یا یک عبارت الگویی باشد که در ادامه با مثال بیشتر متوجه خواهد شد.
   </blockquote>
     <blockquote><h5>Attributes :
-  <ul>
+  <ul  dir="rtl">
     <li>name : نام صف</li>
     <li>durable : زمانی که سیستم ریست می شود صف نگه داری شود یا خیر ؟</li>
     <li>exclusive : زمانی که اتصال صف قطع شد بصورت اتوماتیک حذف شود ( استفاده برای صف های موفتی )</li>
@@ -38,7 +38,7 @@
 </ul>
 
 <h3><i>Echange Types:</i></h3>
-<uL>
+<uL dir="rtl">
   <li><b>Defult Exchange :</b>در این نوع ارسال route key یا کلید ارتباطی نام صف می باشد</li>
   <li><b>Direct Exchange :</b>در این نوع ارتباط زمانی پیام به صفی که bind key آن با route key پیام یکی باشد ارسال خواهد شد.</li>
   <img src="https://i.postimg.cc/ZnhKsCHP/Direct-Exchange1.png">
